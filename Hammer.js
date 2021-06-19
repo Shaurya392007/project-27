@@ -22,7 +22,7 @@ class Hammer
         push();
 
         translate(this.body.position.x, this.body.position.y);
-        rotate(this.body.angle);
+       // rotate(this.body.angle);
         rectMode(CENTER);
         fill("orange");
         rect(0,0,this.bodyW,this.bodyH);
